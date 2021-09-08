@@ -1,0 +1,106 @@
+/*Diseño General*/
+body{
+	background-color:#CEDBE3;
+}
+h1{
+	font-family:Times New Roman,Arial;
+	font-size:40px;
+	text-align: center;
+	color:#365D6C;
+}
+h2{
+	font-family: Arial;
+	font-size:30px;
+	color:#001846;
+	background-color: #8FD1DF;
+	border-radius:3em;
+}
+h3{
+	color:#5C677D;
+	font-size:20px;
+}
+ul,ol{
+	font-size:20px; 
+    	text-align: left;
+    	display:inline-block;
+}
+p{
+	font-size:20px;
+}
+
+/*Indice*/
+.ind{
+	font-family: Calibri Light;
+	font-size: 20px;
+	text-decoration:none;
+	margin:1px 1px;
+	display:inline-block;
+	background: #C2CCCB;
+	color:#365D6C;
+	padding: 12px 12px;
+	box-shadow: 1px 3px 1px #798B95;
+}
+.ind:hover {
+	color: #000;
+	background:#8FD1DF;
+	box-shadow: 0px 5px 0px #365D6C;
+}
+.ind:active {
+	box-shadow:none;
+}
+/*Libros*/
+.lib{
+	height: 200px;
+	width: 150px;
+	padding: 50px;
+}
+/*ID*/
+#covid{
+	height:200px;
+	width:auto;
+	position: absolute;
+	top: 1875px;
+	left: 100px;
+}
+#clases{
+	height:200px;
+	width:auto;
+	position: absolute;
+	top: 1875px;
+	right: 100px;
+}
+/*Divs*/
+
+.indice{
+	border-width:5px;
+	border-style:double;
+	border-color:#33415D;
+	padding:25px;
+}
+.general{
+	background-color: #DDDED9;
+	border-radius: 1em;
+	margin:30px;
+	padding:15px;
+	text-align: center;	
+}
+.filtro{
+	width:30%;
+	margin: 1em;
+	background-color: #f8ede3;
+	border-radius:1em;
+	float: left;	
+}
+.filtros{
+	overflow: hidden;
+	width: 100%; 
+
+}
+#med{
+	height:400px;
+	width:auto;
+}
+.medidas:hover{
+	background:#C2CCCB;
+	border-radius:3em;
+}
